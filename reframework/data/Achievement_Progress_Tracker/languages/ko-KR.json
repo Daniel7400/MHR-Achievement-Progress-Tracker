@@ -1,0 +1,104 @@
+{
+	"font": "NotoSansKR-Bold.otf",
+	"unicode_glyph_ranges": [
+		"0x3131", "0x3163",
+        "0xAC00", "0xD7A3"
+	],
+	"ui": {
+		"button": {
+			"reset_config": "구성 재설정",
+			"top_left": "왼쪽 위",
+            "top_right": "맨 위 오른쪽",
+            "middle": "가운데",
+            "bottom_left": "왼쪽 하단",
+            "bottom_right": "오른쪽 하단"
+		},
+		"checkbox": {
+			"enabled": "활성화됨",
+			"show_completed_achievements": "완료된 업적 표시"
+		},
+		"color_picker": {
+			"box_background": "상자 배경",
+			"tracker_background": "성과 추적기 배경",
+			"progress_bar_background": "진행률 표시줄 배경",
+			"progress_bar": "진행 표시 줄",
+			"progress_bar_complete": "완료된 진행률 표시줄",
+			"tracker_name_text": "성과 추적기 이름 텍스트",
+			"tracker_description_text": "성과 추적기 설명 텍스트",
+			"progress_text": "진행 표시줄 텍스트",
+			"progress_complete_text": "완료된 진행률 표시줄 텍스트"
+		},
+		"combo_box": {
+			"size": "크기"
+		},
+		"dropdown": {
+			"size": {
+				"small": "작은",
+				"medium": "중간",
+				"large": "크기가 큰"
+			}
+		},
+		"header": {
+			"color": "색상",
+			"display": "표시하다",
+			"language": "언어",
+			"settings": "설정",
+			"tracking": "추적"
+		},
+		"misc": {
+			"current": "현재의",
+			"select_achievements": "추적할 성과 선택"
+		},
+		"selector": {
+			"alignment": "조정"
+		},
+		"slider": {
+			"adjust_position": "위치 조정"
+		},
+		"tooltip": {
+			"manual_input": "CTRL + 마우스 왼쪽 버튼을 클릭하여 수동으로 입력하세요.",
+			"uncheck_achievement": "특정 업적 추적기를 숨기려면 선택을 취소하세요."
+		}
+	},
+	"tracker": {
+		"completed": "완전한!"
+	},
+	"modal": {
+		"header": "축하해요",
+		"message": "이 모드가 추적하는 모든 업적을 완료했습니다!"
+	},
+	"achievement": {
+		"dreadnought_destroyer_plaque": {
+			"name": "천 마리 사냥 장식 그림",
+			"description": "대형 몬스터 1000마리를사냥한 증표."
+		},
+		"hunters_bronze_shield": {
+			"name": "사냥꾼의 동 방패",
+			"description": "마스터 랭크의 대형 몬스터를 100마리 사냥한 증표."
+		},
+		"hunters_silver_shield": {
+			"name": "사냥꾼의 은 방패",
+			"description": "마스터 랭크의 대형 몬스터를 500마리 사냥한 증표."
+		},
+		"hunters_gold_shield": {
+			"name": "사냥꾼의 금 방패",
+			"description": "마스터 랭크의 대형 몬스터를 1000마리 사냥한 증표."
+		},
+		"anomaly_hunt_gold_trophy": {
+			"name": "괴이 토벌 금 트로피",
+			"description": "괴이화 몬스터를 100마리 토벌한 증표."
+		},
+		"shining_surmounters_shield": {
+			"name": "극복자 토벌 빛나는 대형 방패",
+			"description": "괴이 극복 몬스터를 15마리 토벌한 증표."
+		},
+		"baharis_hand_wound_birdie": {
+			"name": "바하리의 태엽식 새",
+			"description": "변칙 연구실에서 조사 코인 3000개를 사용하세요."
+		},
+		"rampage_nemesis_certificate": {
+			"name": "우수 헌터 두루마리【백룡】",
+			"description": "수많은 백룡야행 퀘스트를클리어한 증표. 길드에서 보낸기념품."
+		}
+	}
+}

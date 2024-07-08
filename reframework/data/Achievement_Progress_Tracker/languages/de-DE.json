@@ -1,0 +1,101 @@
+{
+	"font": "NotoSansSC-Bold.otf",
+	"unicode_glyph_ranges": [],
+	"ui": {
+		"button": {
+			"reset_config": "Zurück zu originale Konfiguration",
+			"top_left": "Oben links",
+            "top_right": "Oben rechts",
+            "middle": "Mitte",
+            "bottom_left": "Unten links",
+            "bottom_right": "Unten rechts"
+		},
+		"checkbox": {
+			"enabled": "Ermöglicht",
+			"show_completed_achievements": "Abgeschlossene Erfolge anzeigen"
+		},
+		"color_picker": {
+			"box_background": "Box Hintergrund",
+			"tracker_background": "Hintergrund zur Erfolgstracker",
+			"progress_bar_background": "Hintergrund des Fortschrittsbalkens",
+			"progress_bar": "Fortschrittsanzeige",
+			"progress_bar_complete": "Abgeschlossener Fortschrittsbalken",
+			"tracker_name_text": "Namenstext des Erfolgstracker",
+			"tracker_description_text": "Beschreibungstext des Erfolgstracker",
+			"progress_text": "Fortschrittsbalkentext",
+			"progress_complete_text": "Abgeschlossener Fortschrittsbalkentext"
+		},
+		"combo_box": {
+			"size": "Größe"
+		},
+		"dropdown": {
+			"size": {
+				"small": "Klein",
+				"medium": "Mittel",
+				"large": "Groß"
+			}
+		},
+		"header": {
+			"color": "Farbe",
+			"display": "Anzeige",
+			"language": "Sprache",
+			"settings": "Einstellungen",
+			"tracking": "Verfolgung"
+		},
+		"misc": {
+			"current": "Aktuell",
+			"select_achievements": "Wählen Sie Erfolge zum Verfolgen aus"
+		},
+		"selector": {
+			"alignment": "Ausrichtung"
+		},
+		"slider": {
+			"adjust_position": "Position anpassen"
+		},
+		"tooltip": {
+			"manual_input": "STRG + Links Klick zur manuellen Eingabe",
+			"uncheck_achievement": "Deaktivieren Sie das Kontrollkästchen, um einen bestimmten Erfolgstracker auszublenden."
+		}
+	},
+	"tracker": {
+		"completed": "Vollendet!"
+	},
+	"modal": {
+		"header": "Glückwunsch",
+		"message": "Sie haben alle Erfolge erreicht, die dieser Mod verfolgt!"
+	},
+	"achievement": {
+		"dreadnought_destroyer_plaque": {
+			"name": "\"Furchtloser Zerstörer\"-Tafel",
+			"description": "Auszeichnung für das Jagen von 1.000 großen Monstern."
+		},
+		"hunters_bronze_shield": {
+			"name": "Jäger-Bronzeschild",
+			"description": "Auszeichnung für das Jagen von 100 großen Meisterrang-Monstern."
+		},
+		"hunters_silver_shield": {
+			"name": "Jäger-Silberschild",
+			"description": "Auszeichnung für das Erjagen von 500 großen Meisterrang-Monstern."
+		},
+		"hunters_gold_shield": {
+			"name": "Jäger-Goldschild",
+			"description": "Auszeichnung für das Jagen von 1000 großen Meisterrang-Monstern."
+		},
+		"anomaly_hunt_gold_trophy": {
+			"name": "Anomalie-Jagd-Goldtrophäe",
+			"description": "Auszeichnung für das Erlegen von 100 befallenen Monstern."
+		},
+		"shining_surmounters_shield": {
+			"name": "Glänzender Bezwinger-Schild",
+			"description": "Auszeichnung für das Erlegen von 15 Erhobenen Monstern."
+		},
+		"baharis_hand_wound_birdie": {
+			"name": "Baharis Aufziehvögelchen",
+			"description": "Geben Sie 3.000 Untersuchungsmünzen im Anomalieforschungslabor aus."
+		},
+		"rampage_nemesis_certificate": {
+			"name": "Zertifikat für Randale-Feinde",
+			"description": "Ein Souvenir von der Gilde für das Abschließen zahlreicher Randale-Quests."
+		}
+	}
+}

@@ -1,0 +1,101 @@
+{
+	"font": "NotoSansSC-Bold.otf",
+	"unicode_glyph_ranges": [],
+	"ui": {
+		"button": {
+			"reset_config": "Đặt lại cấu hình",
+			"top_left": "Trên cùng bên trái",
+            "top_right": "Trên cùng bên phải",
+            "middle": "Ở giữa",
+            "bottom_left": "Dưới cùng bên trái",
+            "bottom_right": "Góc phải ở phía dưới"
+		},
+		"checkbox": {
+			"enabled": "Đã bật",
+			"show_completed_achievements": "Hiển thị thành tích đã hoàn thành"
+		},
+		"color_picker": {
+			"box_background": "Hộp Nền",
+			"tracker_background": "Nền theo dõi thành tích",
+			"progress_bar_background": "Nền thanh tiến trình",
+			"progress_bar": "Thanh tiến trình",
+			"progress_bar_complete": "Thanh tiến trình đã hoàn thành",
+			"tracker_name_text": "Văn bản tên người theo dõi thành tích",
+			"tracker_description_text": "Văn bản mô tả theo dõi thành tích",
+			"progress_text": "Văn bản trên thanh tiến trình",
+			"progress_complete_text": "Văn bản thanh tiến trình đã hoàn thành"
+		},
+		"combo_box": {
+			"size": "Kích cỡ"
+		},
+		"dropdown": {
+			"size": {
+				"small": "Bé nhỏ",
+				"medium": "Trung bình",
+				"large": "Lớn"
+			}
+		},
+		"header": {
+			"color": "Màu sắc",
+			"display": "Trưng bày",
+			"language": "Ngôn ngữ",
+			"settings": "Cài đặt",
+			"tracking": "Theo dõi"
+		},
+		"misc": {
+			"current": "Hiện hành",
+			"select_achievements": "Chọn thành tích để theo dõi"
+		},
+		"selector": {
+			"alignment": "Căn chỉnh"
+		},
+		"slider": {
+			"adjust_position": "Điều chỉnh vị trí"
+		},
+		"tooltip": {
+			"manual_input": "CTRL + Nhấp chuột trái để nhập thủ công",
+			"uncheck_achievement": "Bỏ chọn để ẩn trình theo dõi thành tích cụ thể"
+		}
+	},
+	"tracker": {
+		"completed": "Hoàn thành!"
+	},
+	"modal": {
+		"header": "Chúc mừng",
+		"message": "Bạn đã hoàn thành tất cả các thành tích mà bản mod này theo dõi!"
+	},
+	"achievement": {
+		"dreadnought_destroyer_plaque": {
+			"name": "Tấm biển khu trục hạm Dreadnought",
+			"description": "Phần thưởng khi săn được 1000 quái vật lớn."
+		},
+		"hunters_bronze_shield": {
+			"name": "Khiên đồng của thợ săn",
+			"description": "Được thưởng khi săn được 100 quái vật cấp bậc chủ nhân lớn."
+		},
+		"hunters_silver_shield": {
+			"name": "Khiên bạc của thợ săn",
+			"description": "Được thưởng khi săn được 500 quái vật cấp bậc chủ nhân lớn."
+		},
+		"hunters_gold_shield": {
+			"name": "Khiên vàng của thợ săn",
+			"description": "Được thưởng khi săn được 1000 quái vật cấp bậc chủ nhân lớn."
+		},
+		"anomaly_hunt_gold_trophy": {
+			"name": "Cúp vàng săn dị thường",
+			"description": "Được trao thưởng khi tiêu diệt 100 quái vật bị ảnh hưởng."
+		},
+		"shining_surmounters_shield": {
+			"name": "Tấm khiên của người vượt qua sáng ngời",
+			"description": "Được trao thưởng khi tiêu diệt 15 quái vật Phục sinh."
+		},
+		"baharis_hand_wound_birdie": {
+			"name": "Birdie vết thương ở tay của Bahari",
+			"description": "Chi 3000 xu điều tra tại Phòng thí nghiệm nghiên cứu dị thường."
+		},
+		"rampage_nemesis_certificate": {
+			"name": "Chứng chỉ Nemesis hung hãn",
+			"description": "Hoàn thành 50 nhiệm vụ Rampage."
+		}
+	}
+}

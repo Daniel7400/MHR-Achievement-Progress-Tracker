@@ -1,0 +1,101 @@
+{
+	"font": "NotoSansSC-Bold.otf",
+	"unicode_glyph_ranges": [],
+	"ui": {
+		"button": {
+			"reset_config": "Redefinir configuração",
+			"top_left": "Canto superior esquerdo",
+            "top_right": "Canto superior direito",
+            "middle": "Meio",
+            "bottom_left": "Inferior esquerdo",
+            "bottom_right": "Canto inferior direito"
+		},
+		"checkbox": {
+			"enabled": "Habilitado",
+			"show_completed_achievements": "Mostrar conquistas concluídas"
+		},
+		"color_picker": {
+			"box_background": "Fundo da caixa",
+			"tracker_background": "Plano de fundo do rastreador de conquistas",
+			"progress_bar_background": "Fundo da barra de progresso",
+			"progress_bar": "Barra de progresso",
+			"progress_bar_complete": "Barra de progresso concluída",
+			"tracker_name_text": "Texto do nome do rastreador de conquistas",
+			"tracker_description_text": "Texto de descrição do rastreador de conquistas",
+			"progress_text": "Texto da barra de progresso",
+			"progress_complete_text": "Texto da barra de progresso concluído"
+		},
+		"combo_box": {
+			"size": "Tamanho"
+		},
+		"dropdown": {
+			"size": {
+				"small": "Pequeno",
+				"medium": "Médio",
+				"large": "Grande"
+			}
+		},
+		"header": {
+			"color": "Cor",
+			"display": "Mostrar",
+			"language": "Linguagem",
+			"settings": "Configurações",
+			"tracking": "Monitorando"
+		},
+		"misc": {
+			"current": "Atual",
+			"select_achievements": "Selecione conquistas para acompanhar"
+		},
+		"selector": {
+			"alignment": "Alinhamento"
+		},
+		"slider": {
+			"adjust_position": "Ajustar posição"
+		},
+		"tooltip": {
+			"manual_input": "CTRL + clique esquerdo para inserir manualmente",
+			"uncheck_achievement": "Desmarque para ocultar um rastreador de conquistas específico"
+		}
+	},
+	"tracker": {
+		"completed": "Concluído!"
+	},
+	"modal": {
+		"header": "Parabéns",
+		"message": "Você completou todas as conquistas que este mod rastreia!"
+	},
+	"achievement": {
+		"dreadnought_destroyer_plaque": {
+			"name": "Placa Destruidor de Couraçados",
+			"description": "Prêmio por caçar 1000 monstros grandes."
+		},
+		"hunters_bronze_shield": {
+			"name": "Escudo de Bronze do Caçador",
+			"description": "Prêmio por caçar 100 monstros grandes de Ranque Mestre."
+		},
+		"hunters_silver_shield": {
+			"name": "Escudo de Prata do Caçador",
+			"description": "Prêmio por caçar 500 monstros grandes de Ranque Mestre."
+		},
+		"hunters_gold_shield": {
+			"name": "Escudo de Ouro do Caçador",
+			"description": "Prêmio por caçar 1000 monstros grandes de Ranque Mestre."
+		},
+		"anomaly_hunt_gold_trophy": {
+			"name": "Troféu Ouro Caça Afligida",
+			"description": "Prêmio por caçar 100 monstros afligidos."
+		},
+		"shining_surmounters_shield": {
+			"name": "Escudo da Superação Brilhante",
+			"description": "Concedido por abater 15 monstros erguidos."
+		},
+		"baharis_hand_wound_birdie": {
+			"name": "Passarinho de Corda de Bahari",
+			"description": "Gaste 3000 moedas de investigação no Laboratório de Pesquisa de Anomalias."
+		},
+		"rampage_nemesis_certificate": {
+			"name": "Certif. de Nêmesis do Frenesi",
+			"description": "Souvenir da Guilda por completar várias Missões do Frenesi."
+		}
+	}
+}

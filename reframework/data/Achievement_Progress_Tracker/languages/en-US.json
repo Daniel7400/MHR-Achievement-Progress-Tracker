@@ -1,0 +1,101 @@
+{
+	"font": "NotoSansSC-Bold.otf",
+	"unicode_glyph_ranges": [],
+	"ui": {
+		"button": {
+			"reset_config": "Reset Config",
+			"top_left": "Top Left",
+            "top_right": "Top Right",
+            "middle": "Middle",
+            "bottom_left": "Bottom Left",
+            "bottom_right": "Bottom Right"
+		},
+		"checkbox": {
+			"enabled": "Enabled",
+			"show_completed_achievements": "Show Completed Achievements"
+		},
+		"color_picker": {
+			"box_background": "Box Background",
+			"tracker_background": "Achievement Tracker Background",
+			"progress_bar_background": "Progress Bar Background",
+			"progress_bar": "Progress Bar",
+			"progress_bar_complete": "Completed Progress Bar",
+			"tracker_name_text": "Achievement Tracker Name Text",
+			"tracker_description_text": "Achievement Tracker Description Text",
+			"progress_text": "Progress Bar Text",
+			"progress_complete_text": "Completed Progress Bar Text"
+		},
+		"combo_box": {
+			"size": "Size"
+		},
+		"dropdown": {
+			"size": {
+				"small": "Small",
+				"medium": "Medium",
+				"large": "Large"
+			}
+		},
+		"header": {
+			"color": "Color",
+			"display": "Display",
+			"language": "Language",
+			"settings": "Settings",
+			"tracking": "Tracking"
+		},
+		"misc": {
+			"current": "Current",
+			"select_achievements": "Select achievements to track"
+		},
+		"selector": {
+			"alignment": "Alignment"
+		},
+		"slider": {
+			"adjust_position": "Adjust Position"
+		},
+		"tooltip": {
+			"manual_input": "CTRL + Left Click to input manually",
+			"uncheck_achievement": "Uncheck to hide a specific achievement tracker"
+		}
+	},
+	"tracker": {
+		"completed": "Completed!"
+	},
+	"modal": {
+		"header": "Congratulations",
+		"message": "You have completed all of the achievements this mod tracks!"
+	},
+	"achievement": {
+		"dreadnought_destroyer_plaque": {
+			"name": "Dreadnought Destroyer Plaque",
+			"description": "Awarded for hunting 1000 large monsters."
+		},
+		"hunters_bronze_shield": {
+			"name": "Hunter's Bronze Shield",
+			"description": "Awarded for hunting 100 large master rank monsters."
+		},
+		"hunters_silver_shield": {
+			"name": "Hunter's Silver Shield",
+			"description": "Awarded for hunting 500 large master rank monsters."
+		},
+		"hunters_gold_shield": {
+			"name": "Hunter's Gold Shield",
+			"description": "Awarded for hunting 1000 large master rank monsters."
+		},
+		"anomaly_hunt_gold_trophy": {
+			"name": "Anomaly Hunt Gold Trophy",
+			"description": "Awarded for slaying 100 afflicted monsters."
+		},
+		"shining_surmounters_shield": {
+			"name": "Shining Surmounter's Shield",
+			"description": "Awarded for slaying 15 Risen monsters."
+		},
+		"baharis_hand_wound_birdie": {
+			"name": "Bahari's Hand-Wound Birdie",
+			"description": "Spend 3000 Investigation Coins at the Anomaly Research Lab."
+		},
+		"rampage_nemesis_certificate": {
+			"name": "Rampage Nemesis Certificate",
+			"description": "Complete 50 Rampage quests."
+		}
+	}
+}

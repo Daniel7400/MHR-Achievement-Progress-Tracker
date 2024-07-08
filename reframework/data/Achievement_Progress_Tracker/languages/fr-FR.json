@@ -1,0 +1,101 @@
+{
+	"font": "NotoSansSC-Bold.otf",
+	"unicode_glyph_ranges": [],
+	"ui": {
+		"button": {
+			"reset_config": "Réinitialiser la configuration",
+			"top_left": "En haut à gauche",
+            "top_right": "En haut à droite",
+            "middle": "Milieu",
+            "bottom_left": "En bas à gauche",
+            "bottom_right": "En bas à droite"
+		},
+		"checkbox": {
+			"enabled": "Activé",
+			"show_completed_achievements": "Afficher les réalisations terminées"
+		},
+		"color_picker": {
+			"box_background": "Fond de boîte",
+			"tracker_background": "Fond de suivi des réalisations",
+			"progress_bar_background": "Fond de barre de progression",
+			"progress_bar": "Barre de progression",
+			"progress_bar_complete": "Barre de progression terminée",
+			"tracker_name_text": "Texte du nom du suivi des réalisations",
+			"tracker_description_text": "Texte de description du suivi des réalisations",
+			"progress_text": "Texte de la barre de progression",
+			"progress_complete_text": "Texte de la barre de progression terminé"
+		},
+		"combo_box": {
+			"size": "Taille"
+		},
+		"dropdown": {
+			"size": {
+				"small": "Petite",
+				"medium": "Moyen",
+				"large": "Grande"
+			}
+		},
+		"header": {
+			"color": "Couleur",
+			"display": "Afficher",
+			"language": "Langue",
+			"settings": "Paramètres",
+			"tracking": "Suivie"
+		},
+		"misc": {
+			"current": "Actuel",
+			"select_achievements": "Sélectionnez les réalisations à suivre"
+		},
+		"selector": {
+			"alignment": "Alignement"
+		},
+		"slider": {
+			"adjust_position": "Ajuster la position"
+		},
+		"tooltip": {
+			"manual_input": "CTRL + clic gauche pour saisir manuellement",
+			"uncheck_achievement": "Décochez pour masquer un tracker de réussite spécifique"
+		}
+	},
+	"tracker": {
+		"completed": "Complété!"
+	},
+	"modal": {
+		"header": "Toutes nos félicitations",
+		"message": "Vous avez terminé toutes les réalisations de ce mod!"
+	},
+	"achievement": {
+		"dreadnought_destroyer_plaque": {
+			"name": "Plaque Fléau des mastodontes",
+			"description": "Pour avoir chassé 1 000 grands monstres."
+		},
+		"hunters_bronze_shield": {
+			"name": "Bouclier de bronze",
+			"description": "Offert pour avoir chassé 100 grands monstres de Rang Maître."
+		},
+		"hunters_silver_shield": {
+			"name": "Bouclier d'argent",
+			"description": "Offert pour avoir chassé 500 grands monstres de Rang Maître."
+		},
+		"hunters_gold_shield": {
+			"name": "Bouclier d'or",
+			"description": "Offert pour avoir chassé 1000 grands monstres de Rang Maître."
+		},
+		"anomaly_hunt_gold_trophy": {
+			"name": "Trophée d'or Chasse Anomalie",
+			"description": "Offert pour avoir tué 100 monstres affligés."
+		},
+		"shining_surmounters_shield": {
+			"name": "Bouclier de guérison brillant",
+			"description": "Attribué pour avoir tué 15 monstres réveillés."
+		},
+		"baharis_hand_wound_birdie": {
+			"name": "L'oiseau de Bahari",
+			"description": "Fabriqué par Bahari, doit être remonté. Prouve que vous fréquentez le Labo de Recherche Anomalie."
+		},
+		"rampage_nemesis_certificate": {
+			"name": "Certificat Ennemi de la Calamité",
+			"description": "Un souvenir de la Guilde pour avoir accompli de nombreuses quêtes liées à la Calamité."
+		}
+	}
+}

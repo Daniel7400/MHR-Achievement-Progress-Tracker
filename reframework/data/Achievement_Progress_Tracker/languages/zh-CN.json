@@ -1,0 +1,105 @@
+{
+	"font": "NotoSansSC-Bold.otf",
+	"unicode_glyph_ranges": [
+		"0x3000", "0x30FF",
+        "0x31F0", "0x31FF",
+		"0x4E00", "0x9FAF"
+	],
+	"ui": {
+		"button": {
+			"reset_config": "重置配置",
+			"top_left": "左上方",
+            "top_right": "右上",
+            "middle": "中间",
+            "bottom_left": "左下方",
+            "bottom_right": "右下角"
+		},
+		"checkbox": {
+			"enabled": "启用",
+			"show_completed_achievements": "显示已完成的成就"
+		},
+		"color_picker": {
+			"box_background": "盒子背景",
+			"tracker_background": "成就追踪器背景",
+			"progress_bar_background": "进度条背景",
+			"progress_bar": "进度条",
+			"progress_bar_complete": "已完成进度条",
+			"tracker_name_text": "成就追踪器名称文本",
+			"tracker_description_text": "成就追踪器描述文本",
+			"progress_text": "进度条文本",
+			"progress_complete_text": "已完成进度条文本"
+		},
+		"combo_box": {
+			"size": "尺寸"
+		},
+		"dropdown": {
+			"size": {
+				"small": "小的",
+				"medium": "中等的",
+				"large": "大的"
+			}
+		},
+		"header": {
+			"color": "颜色",
+			"display": "展示",
+			"language": "语言",
+			"settings": "设置",
+			"tracking": "追踪"
+		},
+		"misc": {
+			"current": "当前的",
+			"select_achievements": "选择要追踪的成就"
+		},
+		"selector": {
+			"alignment": "结盟"
+		},
+		"slider": {
+			"adjust_position": "调整位置"
+		},
+		"tooltip": {
+			"manual_input": "CTRL + 左键单击手动输入",
+			"uncheck_achievement": "取消选中以隐藏特定成就追踪器"
+		}
+	},
+	"tracker": {
+		"completed": "完全的！"
+	},
+	"modal": {
+		"header": "恭喜",
+		"message": "您已完成此模型追踪的所有成就！"
+	},
+	"achievement": {
+		"dreadnought_destroyer_plaque": {
+			"name": "千头狩猎绘马",
+			"description": "狩猎了1000头大型怪物的证明。"
+		},
+		"hunters_bronze_shield": {
+			"name": "狩猎者的铜盾",
+			"description": "狩猎了100头大师等级的大型怪物的证明。"
+		},
+		"hunters_silver_shield": {
+			"name": "狩猎者的银盾",
+			"description": "狩猎了500头大师等级的大型怪物的证明。"
+		},
+		"hunters_gold_shield": {
+			"name": "狩猎者的金盾",
+			"description": "狩猎了1000头大师等级的大型怪物的证明。"
+		},
+		"anomaly_hunt_gold_trophy": {
+			"name": "讨伐怪异的黄金奖杯",
+			"description": "讨伐了100头怪异化怪物的证明。"
+		},
+		"shining_surmounters_shield": {
+			"name": "讨伐克服者的光辉大盾",
+			"description": "讨伐了15头怪异克服怪物的证明。"
+		},
+		"baharis_hand_wound_birdie": {
+			"name": "巴哈里的发条鸟",
+			"description": "在异常研究实验室花费3000个调查币。"
+		},
+		"rampage_nemesis_certificate": {
+			"name": "优秀猎人之卷【百龙】",
+			"description": "完成诸多百龙夜行任务的证明。公会赠予的纪念品。"
+		}
+	}
+}

@@ -1,0 +1,101 @@
+{
+	"font": "NotoSansSC-Bold.otf",
+	"unicode_glyph_ranges": [],
+	"ui": {
+		"button": {
+			"reset_config": "Restablecer configuración",
+			"top_left": "Arriba a la izquierda",
+            "top_right": "Parte superior derecha",
+            "middle": "Medio",
+            "bottom_left": "Abajo a la izquierda",
+            "bottom_right": "Abajo a la derecha"
+		},
+		"checkbox": {
+			"enabled": "Activado",
+			"show_completed_achievements": "Mostrar logros completados"
+		},
+		"color_picker": {
+			"box_background": "Fondo de caja",
+			"tracker_background": "Antecedentes del seguimiento de logros",
+			"progress_bar_background": "Fondo de la barra de progreso",
+			"progress_bar": "Barra de progreso",
+			"progress_bar_complete": "Barra de progreso completada",
+			"tracker_name_text": "Texto del nombre del rastreador de logros",
+			"tracker_description_text": "Texto de descripción del rastreador de logros",
+			"progress_text": "Texto de la barra de progreso",
+			"progress_complete_text": "Texto de la barra de progreso completado"
+		},
+		"combo_box": {
+			"size": "Tamaño"
+		},
+		"dropdown": {
+			"size": {
+				"small": "Pequeño",
+				"medium": "Medio",
+				"large": "Grande"
+			}
+		},
+		"header": {
+			"color": "Color",
+			"display": "Mostrar",
+			"language": "Idioma",
+			"settings": "Ajustes",
+			"tracking": "Seguimiento"
+		},
+		"misc": {
+			"current": "Actual",
+			"select_achievements": "Seleccione logros para realizar un seguimiento"
+		},
+		"selector": {
+			"alignment": "Alineación"
+		},
+		"slider": {
+			"adjust_position": "Ajustar posición"
+		},
+		"tooltip": {
+			"manual_input": "CTRL + clic izquierdo para ingresar manualmente",
+			"uncheck_achievement": "Desmarque para ocultar un rastreador de logros específico"
+		}
+	},
+	"tracker": {
+		"completed": "¡Terminado!"
+	},
+	"modal": {
+		"header": "Felicidades",
+		"message": "¡Has completado todos los logros que rastrea este mod!"
+	},
+	"achievement": {
+		"dreadnought_destroyer_plaque": {
+			"name": "Placa de destructor de colosos",
+			"description": "Otorgado por cazar 1000 monstruos grandes."
+		},
+		"hunters_bronze_shield": {
+			"name": "Escudo de cazador de bronce",
+			"description": "Concedido por cazar 100 monstruos grandes de rango maestro."
+		},
+		"hunters_silver_shield": {
+			"name": "Escudo de cazador de plata",
+			"description": "Concedido por cazar 500 monstruos grandes de rango maestro."
+		},
+		"hunters_gold_shield": {
+			"name": "Escudo de cazador de oro",
+			"description": "Concedido por cazar 1000 monstruos grandes de rango maestro."
+		},
+		"anomaly_hunt_gold_trophy": {
+			"name": "Anomalía: trofeo de oro",
+			"description": "Concedido por abatir 100 monstruos afligidos."
+		},
+		"shining_surmounters_shield": {
+			"name": "Escudo brillante vencedor",
+			"description": "Concedido por abatir 15 dragones ancianos elevados."
+		},
+		"baharis_hand_wound_birdie": {
+			"name": "Pajarito de cuerda de Bahari",
+			"description": "Gasta 3000 monedas de investigación en el laboratorio de investigación de anomalías."
+		},
+		"rampage_nemesis_certificate": {
+			"name": "Certificado némesis Frenesí",
+			"description": "Recuerdo del gremio por completar varias misiones del Frenesí."
+		}
+	}
+}

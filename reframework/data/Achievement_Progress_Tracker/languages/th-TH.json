@@ -1,0 +1,103 @@
+{
+	"font": "NotoSansThai-Bold.otf",
+	"unicode_glyph_ranges": [
+		"0x0E00", "0x0E7F"
+	],
+	"ui": {
+		"button": {
+			"reset_config": "รีเซ็ตการกำหนดค่า",
+			"top_left": "บนซ้าย",
+            "top_right": "ขวาบน",
+            "middle": "กลาง",
+            "bottom_left": "ล่างซ้าย",
+            "bottom_right": "ล่างขวา"
+		},
+		"checkbox": {
+			"enabled": "เปิดใช้งานแล้ว",
+			"show_completed_achievements": "แสดงความสำเร็จที่เสร็จสมบูรณ์"
+		},
+		"color_picker": {
+			"box_background": "พื้นหลังกล่อง",
+			"tracker_background": "พื้นหลังตัวติดตามความสำเร็จ",
+			"progress_bar_background": "พื้นหลังแถบความคืบหน้า",
+			"progress_bar": "แถบความคืบหน้า",
+			"progress_bar_complete": "แถบความคืบหน้าเสร็จสมบูรณ์",
+			"tracker_name_text": "ข้อความชื่อตัวติดตามความสำเร็จ",
+			"tracker_description_text": "ข้อความคำอธิบายตัวติดตามความสำเร็จ",
+			"progress_text": "ข้อความแถบความคืบหน้า",
+			"progress_complete_text": "ข้อความแถบความคืบหน้าเสร็จสมบูรณ์"
+		},
+		"combo_box": {
+			"size": "ขนาด"
+		},
+		"dropdown": {
+			"size": {
+				"small": "เล็ก",
+				"medium": "ปานกลาง",
+				"large": "ใหญ่"
+			}
+		},
+		"header": {
+			"color": "สี",
+			"display": "แสดง",
+			"language": "ภาษา",
+			"settings": "การตั้งค่า",
+			"tracking": "การติดตาม"
+		},
+		"misc": {
+			"current": "ปัจจุบัน",
+			"select_achievements": "เลือกความสำเร็จที่จะติดตาม"
+		},
+		"selector": {
+			"alignment": "การจัดตำแหน่ง"
+		},
+		"slider": {
+			"adjust_position": "ปรับตำแหน่ง"
+		},
+		"tooltip": {
+			"manual_input": "CTRL + คลิกซ้ายเพื่อป้อนข้อมูลด้วยตนเอง",
+			"uncheck_achievement": "ยกเลิกการเลือกเพื่อซ่อนตัวติดตามความสำเร็จเฉพาะ"
+		}
+	},
+	"tracker": {
+		"completed": "สมบูรณ์!"
+	},
+	"modal": {
+		"header": "ยินดีด้วย",
+		"message": "คุณได้บรรลุความสำเร็จทั้งหมดตามแทร็กม็อดนี้แล้ว!"
+	},
+	"achievement": {
+		"dreadnought_destroyer_plaque": {
+			"name": "แผ่นป้ายเรือพิฆาตจต์นอต",
+			"description": "ได้รับรางวัลจากการล่ามอนสเตอร์ขนาดใหญ่ 1,000 ตัว"
+		},
+		"hunters_bronze_shield": {
+			"name": "โล่ทองแดงของนักล่า",
+			"description": "ได้รับรางวัลจากการล่ามอนสเตอร์ระดับมาสเตอร์ขนาดใหญ่ 100 ตัว"
+		},
+		"hunters_silver_shield": {
+			"name": "โล่เงินของนักล่า",
+			"description": "ได้รับรางวัลจากการล่ามอนสเตอร์ระดับมาสเตอร์ขนาดใหญ่ 500 ตัว"
+		},
+		"hunters_gold_shield": {
+			"name": "โล่ทองของนักล่า",
+			"description": "ได้รับรางวัลจากการล่ามอนสเตอร์ระดับมาสเตอร์ขนาดใหญ่ 1,000 ตัว"
+		},
+		"anomaly_hunt_gold_trophy": {
+			"name": "ถ้วยรางวัล Anomaly Hunt Gold",
+			"description": "ได้รับรางวัลจากการสังหารมอนสเตอร์ที่ทรมาน 100 ตัว"
+		},
+		"shining_surmounters_shield": {
+			"name": "โล่ของ Surmounter ที่ส่องแสง",
+			"description": "ได้รับรางวัลจากการสังหารมอนสเตอร์ Risen 15 ตัว"
+		},
+		"baharis_hand_wound_birdie": {
+			"name": "เบอร์ดี้ทำมือของบาฮารี",
+			"description": "ใช้เหรียญตรวจสอบ 3000 เหรียญที่ห้องปฏิบัติการวิจัยความผิดปกติ"
+		},
+		"rampage_nemesis_certificate": {
+			"name": "ใบรับรองอาละวาดเนเมซิส",
+			"description": "ทำภารกิจ Rampage ให้สำเร็จ 50 ภารกิจ"
+		}
+	}
+}

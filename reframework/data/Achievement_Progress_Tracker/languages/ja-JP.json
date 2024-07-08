@@ -1,0 +1,104 @@
+{
+	"font": "NotoSansSC-Bold.otf",
+	"unicode_glyph_ranges": [
+		"0x3000", "0x30FF",
+        "0x31F0", "0x31FF"
+	],
+	"ui": {
+		"button": {
+			"reset_config": "設定をリセット",
+			"top_left": "左上",
+            "top_right": "右上",
+            "middle": "真ん中",
+            "bottom_left": "左下",
+            "bottom_right": "右下"
+		},
+		"checkbox": {
+			"enabled": "有効",
+			"show_completed_achievements": "完了した実績を表示"
+		},
+		"color_picker": {
+			"box_background": "ボックスの背景",
+			"tracker_background": "達成トラッカーの背景",
+			"progress_bar_background": "進捗バーの背景",
+			"progress_bar": "プログレスバー",
+			"progress_bar_complete": "完了した進捗状況バー",
+			"tracker_name_text": "達成トラッカー名テキスト",
+			"tracker_description_text": "達成トラッカーの説明テキスト",
+			"progress_text": "達成トラッカーの説明テキスト",
+			"progress_complete_text": "完了した進捗状況バーのテキスト"
+		},
+		"combo_box": {
+			"size": "サイズ"
+		},
+		"dropdown": {
+			"size": {
+				"small": "小さい",
+				"medium": "中くらい",
+				"large": "大きい"
+			}
+		},
+		"header": {
+			"color": "色",
+			"display": "画面",
+			"language": "言語",
+			"settings": "設定",
+			"tracking": "追跡"
+		},
+		"misc": {
+			"current": "現在",
+			"select_achievements": "追跡する成果を選択"
+		},
+		"selector": {
+			"alignment": "アライメント"
+		},
+		"slider": {
+			"adjust_position": "位置を調整する"
+		},
+		"tooltip": {
+			"manual_input": "CTRL + 左クリックして手動で入力します",
+			"uncheck_achievement": "特定の達成トラッカーを非表示にするにはチェックを外します"
+		}
+	},
+	"tracker": {
+		"completed": "完了しました！"
+	},
+	"modal": {
+		"header": "おめでとう",
+		"message": "この MOD が追跡するすべての成果を達成しました。"
+	},
+	"achievement": {
+		"dreadnought_destroyer_plaque": {
+			"name": "千頭狩猟の飾り絵馬",
+			"description": "大型モンスターを1000頭、狩猟した証。"
+		},
+		"hunters_bronze_shield": {
+			"name": "狩猟者の銅盾",
+			"description": "マスターランクの大型モンスターを100頭、狩猟した証。"
+		},
+		"hunters_silver_shield": {
+			"name": "狩猟者の銀盾",
+			"description": "マスターランクの大型モンスターを500頭、狩猟した証。"
+		},
+		"hunters_gold_shield": {
+			"name": "狩猟者の金盾",
+			"description": "マスターランクの大型モンスターを1000頭、狩猟した証。"
+		},
+		"anomaly_hunt_gold_trophy": {
+			"name": "傀異討伐のゴールドトロフィー",
+			"description": "傀異化モンスターを100頭、討伐した証。"
+		},
+		"shining_surmounters_shield": {
+			"name": "克服者討伐の輝く大盾",
+			"description": "傀異克服モンスターを15体、討伐した証。"
+		},
+		"baharis_hand_wound_birdie": {
+			"name": "バハリの手巻き鳥",
+			"description": "異常研究ラボで調査コイン3000枚を使います。"
+		},
+		"rampage_nemesis_certificate": {
+			"name": "優秀狩人ノ巻【百竜】",
+			"description": "多くの百竜夜行のクエストをクリアした証。ギルドから送られる記念品。"
+		}
+	}
+}

@@ -1,0 +1,104 @@
+{
+	"font": "NotoSans-Bold.otf",
+	"unicode_glyph_ranges": [
+		"0x0370", "0x03FF",
+		"0x1F00", "0x1FFF"
+	],
+	"ui": {
+		"button": {
+			"reset_config": "Επαναφορά διαμόρφωσης",
+			"top_left": "Πάνω αριστερά",
+            "top_right": "Επάνω δεξιά",
+            "middle": "Μέση",
+            "bottom_left": "Κάτω αριστερά",
+            "bottom_right": "Κάτω δεξιά"
+		},
+		"checkbox": {
+			"enabled": "Ενεργοποιήθηκε",
+			"show_completed_achievements": "Εμφάνιση Ολοκληρωμένων Επιτευγμάτων"
+		},
+		"color_picker": {
+			"box_background": "Φόντο κουτιού",
+			"tracker_background": "Φόντο παρακολούθησης επιτεύγματος",
+			"progress_bar_background": "Φόντο γραμμής προόδου",
+			"progress_bar": "Γραμμή προόδου",
+			"progress_bar_complete": "Ολοκληρωμένη γραμμή προόδου",
+			"tracker_name_text": "Κείμενο ονόματος παρακολούθησης επιτεύγματος",
+			"tracker_description_text": "Κείμενο περιγραφής παρακολούθησης επιτεύγματος",
+			"progress_text": "Κείμενο γραμμής προόδου",
+			"progress_complete_text": "Ολοκληρωμένο κείμενο γραμμής προόδου"
+		},
+		"combo_box": {
+			"size": "Μέγεθος"
+		},
+		"dropdown": {
+			"size": {
+				"small": "Μικρό",
+				"medium": "Μεσαίο",
+				"large": "Μεγάλο"
+			}
+		},
+		"header": {
+			"color": "Χρώμα",
+			"display": "Απεικόνιση",
+			"language": "Γλώσσα",
+			"settings": "Ρυθμίσεις",
+			"tracking": "Παρακολούθηση"
+		},
+		"misc": {
+			"current": "Ρεύμα",
+			"select_achievements": "Επιλέξτε επιτεύγματα για παρακολούθηση"
+		},
+		"selector": {
+			"alignment": "Ευθυγραμμία"
+		},
+		"slider": {
+			"adjust_position": "Προσαρμογή Θέσης"
+		},
+		"tooltip": {
+			"manual_input": "CTRL + Αριστερό κλικ για μη αυτόματη εισαγωγή",
+			"uncheck_achievement": "Καταργήστε την επιλογή για απόκρυψη ενός συγκεκριμένου προγράμματος παρακολούθησης επιτευγμάτων"
+		}
+	},
+	"tracker": {
+		"completed": "Ολοκληρώθηκε το!"
+	},
+	"modal": {
+		"header": "Συγχαρητήρια",
+		"message": "Έχετε ολοκληρώσει όλα τα επιτεύγματα που παρακολουθεί αυτό το mod!"
+	},
+	"achievement": {
+		"dreadnought_destroyer_plaque": {
+			"name": "Πλάκα καταστροφέα Dreadnought",
+			"description": "Βραβεύτηκε για το κυνήγι 1000 μεγάλων τεράτων."
+		},
+		"hunters_bronze_shield": {
+			"name": "Χάλκινη ασπίδα κυνηγού",
+			"description": "Βραβεύτηκε για το κυνήγι 100 μεγάλων τεράτων."
+		},
+		"hunters_silver_shield": {
+			"name": "Ασημένια ασπίδα κυνηγού",
+			"description": "Βραβεύτηκε για το κυνήγι 500 μεγάλων τεράτων."
+		},
+		"hunters_gold_shield": {
+			"name": "Χρυσή ασπίδα του κυνηγού",
+			"description": "Βραβεύτηκε για το κυνήγι 1000 μεγάλων τεράτων."
+		},
+		"anomaly_hunt_gold_trophy": {
+			"name": "Ανωμαλία Hunt Gold Trophy",
+			"description": "Βραβεύτηκε για τη δολοφονία 100 ταλαιπωρημένων τεράτων."
+		},
+		"shining_surmounters_shield": {
+			"name": "Λαμπερή ασπίδα του Surmounter",
+			"description": "Βραβεύτηκε για τη δολοφονία 15 τεράτων Risen."
+		},
+		"baharis_hand_wound_birdie": {
+			"name": "Το πουλάκι της Μπαχάρι με πληγή στο χέρι",
+			"description": "Ξοδέψτε 3000 κέρματα έρευνας στο εργαστήριο έρευνας ανωμαλιών."
+		},
+		"rampage_nemesis_certificate": {
+			"name": "Πιστοποιητικό Rampage Nemesis",
+			"description": "Ολοκληρώστε 50 αποστολές Rampage."
+		}
+	}
+}
