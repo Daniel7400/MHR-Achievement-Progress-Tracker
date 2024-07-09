@@ -108,8 +108,9 @@ function ui_manager.init_module()
             tracking_changed,
             changed = false, false, false, false;
         
-        -- Create a flag to track if the language was reset (when the reset button is pressed).
-        local language_reset = false;
+        -- Define the flags that will track when something is reset (when the reset button is pressed).
+        local tracking_reset,
+            language_reset = false, false;
 
         -- Set the language index to default to 1 (default).
         local language_index = 1;
@@ -125,11 +126,11 @@ function ui_manager.init_module()
                 -- If pressed, then reset the config to the default values.
                 config_manager.reset();
 
-                -- Mark the config and tracking changed flags as true.
+                -- Mark the config changed flag as true.
                 config_changed = true;
-                tracking_changed = true;
 
-                -- Mark the language reset flag as true.
+                -- Mark the tracking and language reset flags as true.
+                tracking_reset = true;
                 language_reset = true;
             end
     
@@ -353,8 +354,8 @@ function ui_manager.init_module()
             end
         end
 
-        -- Check if the tracking was changed.
-        if tracking_changed then
+        -- Check if the tracking was reset or was changed.
+        if tracking_reset or tracking_changed then
             -- If yes, then get the hunter record save data.
             local hunter_record_save_data = sdk_manager.get_hunter_record_save_data();
 
