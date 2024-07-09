@@ -1,7 +1,7 @@
 # Achievement Progress Tracker
 Monster Hunter Rise Mod - Displays your progress on certain achievements that either aren't shown anywhere or are not easily accessible.
 
-// Add image \\
+![image](https://github.com/Daniel7400/MHR-Achievement-Progress-Tracker/assets/8680338/c65eb382-e356-4155-9e2c-79e9d4c5f48c)
 
 ***
 
