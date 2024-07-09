@@ -13,7 +13,7 @@ local tracking_manager = {
             language_manager.language.default.achievement.dreadnought_destroyer_plaque.name,
             language_manager.language.default.achievement.dreadnought_destroyer_plaque.description,
             "1d3f00d8ad0ce2e6ad17d8982b8f2bba08fbb818.jpg",
-            1000, 980,
+            1000, 0,
             constants.update_source.hunter_record_save_data,
             constants.acquisition_method.get_field,
             "BigEnemyHuntingCount"),
@@ -85,9 +85,6 @@ local tracking_manager = {
 ---@param achievement_tracker achievementtracker The achievement tracker to update the value for.
 ---@param update_source any The source used to get the update value from.
 local function update_tracker_value(achievement_tracker, update_source)
-    if achievement_tracker.id == 1 then
-        achievement_tracker.current = achievement_tracker.current + 1
-    else
     -- Check if the acquisition method on the provided achievement tracker is get field.
     if achievement_tracker.update_params.acquisition_method == constants.acquisition_method.get_field then
         -- If yes, then set the current value on the achievement tracker as the get field result on the update source.
@@ -96,7 +93,6 @@ local function update_tracker_value(achievement_tracker, update_source)
     elseif achievement_tracker.update_params.acquisition_method == constants.acquisition_method.call then
         -- If yes, then set the current value on the achievement tracker as the call result on the update source.
         achievement_tracker.current = update_source:call(achievement_tracker.update_params.name);
-    end
     end
 
     -- Check if the provided achievement tracker should be displayed.

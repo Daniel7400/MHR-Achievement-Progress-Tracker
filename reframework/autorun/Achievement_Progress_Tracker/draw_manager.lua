@@ -18,8 +18,10 @@ local draw_manager = {
         -- The font used to display the description text for achievement trackers.
         description = nil,
 
+        -- The font used to display the header text in the congrats modal.
         congrats_header = nil,
 
+        -- The font used to display the message text in the congrats modal.
         congrats_message = nil,
     },
 

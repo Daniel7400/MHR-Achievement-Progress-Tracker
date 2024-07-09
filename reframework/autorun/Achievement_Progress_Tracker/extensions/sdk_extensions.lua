@@ -9,17 +9,17 @@
 function sdk.enum_to_table(type_name, value_as_key)
     -- Call the find type definition from the sdk with the provided type name to get the type definition.
     local type_def = sdk.find_type_definition(type_name);
-	if not type_def then
+    if not type_def then
         -- Return an empty table if the type definition was not found.
-		return {};
-	end
-
+        return {};
+    end
+    
     -- Check if the provided optional value as key flag is nil.
     if value_as_key == nil then
         -- If yes, then set the value as key flag as false by default.
         value_as_key = false;
     end
-
+    
     -- Get the fields from the type definition.
     local fields = type_def:get_fields();
 
@@ -33,7 +33,7 @@ function sdk.enum_to_table(type_name, value_as_key)
             -- If yes, then get the name and data (use nil since it is static) of the current field.
             local name = field:get_name();
             local data = field:get_data(nil);
-
+            
             -- Check if the provided value as key flag is true.
             if value_as_key then
                 -- If yes, then use the field value (data) as the key in the table and set the table value as the field name.
@@ -44,7 +44,7 @@ function sdk.enum_to_table(type_name, value_as_key)
             end
         end
     end
-
+    
     -- Return the populated enum table.
     return enum_table;
 end
@@ -59,6 +59,6 @@ end
 --- @param post_function? function [OPTIONAL] The function to execute after the method is hooked.
 function sdk.add_hook(type_name, method_name, pre_function, post_function)
     assert(pre_function or post_function, "Either the provided 'pre_function' or 'post_function' must not be nil.");
-
+    
     sdk.hook(sdk.find_type_definition(type_name):get_method(method_name), pre_function, post_function);
 end
