@@ -3,6 +3,27 @@ Monster Hunter Rise Mod - Track and display your progress on certain achievement
 
 ![image](https://github.com/Daniel7400/MHR-Achievement-Progress-Tracker/assets/8680338/c65eb382-e356-4155-9e2c-79e9d4c5f48c)
 
+The following achievements are being tracked:
+- Dreadnought Destroyer Plaque
+- Hunter's Bronze Shield
+- Hunter's Silver Shield
+- Hunter's Gold Shield
+- Anomaly Hunt Gold Trophy
+- Shining Surmounter's Shield
+- Bahari's Hand-Wound Birdie
+- Rampage Nemesis Certificate
+- Golden Spiribug Plate
+- Hunting Helpers Plate
+- Spiritwood Necklace
+- Frozen Lampsquid Earring
+- Silver Cactus Ring
+- Prismatic Chalice
+- Heliotrope Bracelet
+- Copal Brooch
+- Sea-Blue Amulet
+- Thank-mew Letter
+- Well-done Grillmeister
+    
 ***
 
 ### Links
