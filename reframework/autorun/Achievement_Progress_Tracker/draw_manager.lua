@@ -109,7 +109,8 @@ local function get_draw_params(screen_width, screen_height)
     -- Else if, check if the alignment anchor on the config is set as middle.
     elseif config_manager.config.current.display.alignment_anchor == imgui.constants.alignment_option.middle then
         -- If yes, then set the x and y values as the return values of the get centered origin function.
-        x, y = math.get_centered_origin(screen_width, screen_height, tracker_width, tracker_height);
+        x, y = math.get_centered_origin(screen_width, screen_height, tracker_width, math.min(tracker_height, screen_height));
+        -- ^ Use a math.min on the tracker height because in certain sizes it would be over the screen height.
     -- Else if, check if the alignment anchor on the config is set as bottom left.
     elseif config_manager.config.current.display.alignment_anchor == imgui.constants.alignment_option.bottom_left then
         -- If yes, then set x as 0 and y as the difference between the provided screen height and calculated tracker height.
@@ -284,13 +285,9 @@ end
 ---
 ---@param achievement_name string The name of the achievement to get the width of.
 ---@param achievement_description string The description of the achievement to get the width of.
----@param increment_display_count boolean The flag used to determine if the `amount_to_display` value on the draw manager should be incremented. 
-function draw_manager.update_values(achievement_name, achievement_description, increment_display_count)
-    -- Check if the provided increment display count flag is true.
-    if increment_display_count then
-        -- If yes, then increment the amount to display by 1.
-        draw_manager.values.amount_to_display = draw_manager.values.amount_to_display + 1;
-    end
+function draw_manager.update_values(achievement_name, achievement_description)
+    -- Increment the amount to display by 1.
+    draw_manager.values.amount_to_display = draw_manager.values.amount_to_display + 1;
 
     -- Get the width of the provided achievement name.
     local name_text_width, _ = draw_manager.fonts.default:measure(achievement_name);

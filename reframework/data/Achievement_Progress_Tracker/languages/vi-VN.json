@@ -91,11 +91,55 @@
 		},
 		"baharis_hand_wound_birdie": {
 			"name": "Birdie vết thương ở tay của Bahari",
-			"description": "Chi 3000 xu điều tra tại Phòng thí nghiệm nghiên cứu dị thường."
+			"description": "Được thưởng khi chi 3000 Xu Điều tra tại Phòng thí nghiệm Nghiên cứu Dị thường."
 		},
 		"rampage_nemesis_certificate": {
 			"name": "Chứng chỉ Nemesis hung hãn",
-			"description": "Hoàn thành 50 nhiệm vụ Rampage."
+			"description": "Được thưởng khi hoàn thành 50 nhiệm vụ hung hãn."
+		},
+		"golden_spiribug_plate": {
+			"name": "Đĩa bọ xít vàng",
+			"description": "Được thưởng khi thu thập được 1000 bọ xít vàng và mạ vàng."
+		},
+		"hunting_helpers_plate": {
+			"name": "Tấm trợ giúp săn bắn",
+			"description": "Được trao thưởng khi thu thập được 500 Người trợ giúp săn bắn."
+		},
+		"spiritwood_necklace": {
+			"name": "Vòng cổ Spiritwood",
+			"description": "Được thưởng khi hoàn thành 50 nhiệm vụ trong Tàn tích đền thờ."
+		},
+		"frozen_lampsquid_earring": {
+			"name": "Bông tai mực đông lạnh",
+			"description": "Được thưởng khi hoàn thành 50 nhiệm vụ ở Quần đảo băng giá."
+		},
+		"silver_cactus_ring": {
+			"name": "Nhẫn xương rồng bạc",
+			"description": "Được thưởng khi hoàn thành 50 nhiệm vụ ở vùng đồng bằng đầy cát."
+		},
+		"prismatic_chalice": {
+			"name": "Chén lăng trụ",
+			"description": "Được thưởng khi hoàn thành 50 nhiệm vụ trong Rừng ngập nước."
+		},
+		"heliotrope_bracelet": {
+			"name": "Vòng tay vòi voi",
+			"description": "Được thưởng khi hoàn thành 50 nhiệm vụ trong Hang Dung Nham."
+		},
+		"copal_brooch": {
+			"name": "Trâm Copal",
+			"description": "Được thưởng khi hoàn thành 50 nhiệm vụ trong Thành cổ."
+		},
+		"sea_blue_amulet": {
+			"name": "Bùa xanh biển",
+			"description": "Được thưởng khi hoàn thành 50 nhiệm vụ trong Rừng."
+		},
+		"thank_mew_letter": {
+			"name": "Thư cảm ơn",
+			"description": "Được thưởng khi thuê 50 Bạn bè."
+		},
+		"well_done_grillmeister": {
+			"name": "Người nướng thịt ngon tuyệt",
+			"description": "Được thưởng vì nấu món bít tết ngon 30 lần."
 		}
 	}
 }

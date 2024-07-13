@@ -91,11 +91,55 @@
 		},
 		"baharis_hand_wound_birdie": {
 			"name": "Pajarito de cuerda de Bahari",
-			"description": "Gasta 3000 monedas de investigación en el laboratorio de investigación de anomalías."
+			"description": "Otorgado por gastar 3000 monedas de investigación en el laboratorio de investigación de anomalías."
 		},
 		"rampage_nemesis_certificate": {
 			"name": "Certificado némesis Frenesí",
-			"description": "Recuerdo del gremio por completar varias misiones del Frenesí."
+			"description": "Otorgado por completar 50 misiones del Frenesí."
+		},
+		"golden_spiribug_plate": {
+			"name": "Plato de espibicho dorado",
+			"description": "Por reunir 1000 espibichos dorados o espibichos áureos."
+		},
+		"hunting_helpers_plate": {
+			"name": "Plato de fauna auxiliar",
+			"description": "Por reunir 500 unidades de fauna auxiliar."
+		},
+		"spiritwood_necklace": {
+			"name": "Collar de madera espiritual",
+			"description": "Por completar 50 misiones en el Templo olvidado."
+		},
+		"frozen_lampsquid_earring": {
+			"name": "Pendiente de caluzmar helado",
+			"description": "Por completar 50 misiones en las Islas heladas."
+		},
+		"silver_cactus_ring": {
+			"name": "Anillo de cactus de plata",
+			"description": "Por completar 50 misiones en los Llanos arenosos."
+		},
+		"prismatic_chalice": {
+			"name": "Cáliz prismático",
+			"description": "Por completar 50 misiones en el Bosque inundado."
+		},
+		"heliotrope_bracelet": {
+			"name": "Brazalete de heliotropo",
+			"description": "Por completar 50 misiones en las Grutas de lava."
+		},
+		"copal_brooch": {
+			"name": "Broche de Copal",
+			"description": "Se concede por completar 50 misiones en el Bastión."
+		},
+		"sea_blue_amulet": {
+			"name": "Amuleto azul marino",
+			"description": "Se concede por completar 50 misiones en la Jungla."
+		},
+		"thank_mew_letter": {
+			"name": "Carta de \"agradecimiaunto\"",
+			"description": "Por contratar 50 camaradas."
+		},
+		"well_done_grillmeister": {
+			"name": "Parrillero bien hecho",
+			"description": "Por cocinar un filete bien hecho 30 veces."
 		}
 	}
 }

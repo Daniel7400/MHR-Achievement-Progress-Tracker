@@ -17,7 +17,7 @@ local config_manager = {
             -- The config options that control the display settings.
             display = {
                 -- The option that controls the size of the achievement trackers when displayed on-screen.
-                size = constants.size_option.medium,
+                size = constants.size_option.small,
 
                 -- The option that controls what alignment anchor is used as the base for where the achievement trackers are located.
                 alignment_anchor = imgui.constants.alignment_option.bottom_left,
@@ -86,7 +86,40 @@ local config_manager = {
                 baharis_hand_wound_birdie = true,
 
                 -- The option that controls whether the `Rampage Nemesis Certificate` achievement should be tracked or not.
-                rampage_nemesis_certificate = true
+                rampage_nemesis_certificate = true,
+
+                -- The option that controls whether the `Golden Spiribug Plate` achievement should be tracked or not.
+                golden_spiribug_plate = true,
+
+                -- The option that controls whether the `Hunting Helpers Plate` achievement should be tracked or not.
+                hunting_helpers_plate = true,
+
+                -- The option that controls whether the `Spiritwood Necklace` achievement should be tracked or not.
+                spiritwood_necklace = true,
+
+                -- The option that controls whether the `Frozen Lampsquid Earring` achievement should be tracked or not.
+                frozen_lampsquid_earring = true,
+
+                -- The option that controls whether the `Silver Cactus Ring` achievement should be tracked or not.
+                silver_cactus_ring = true,
+                
+                -- The option that controls whether the `Prismatic Chalice` achievement should be tracked or not.
+                prismatic_chalice = true,
+                
+                -- The option that controls whether the `Heliotrope Bracelet` achievement should be tracked or not.
+                heliotrope_bracelet = true,
+                
+                -- The option that controls whether the `Copal Brooch` achievement should be tracked or not.
+                copal_brooch = true,
+                
+                -- The option that controls whether the `Sea-Blue Amulet` achievement should be tracked or not.
+                sea_blue_amulet = true,
+                
+                -- The option that controls whether the `Thank-mew Letter` achievement should be tracked or not.
+                thank_mew_letter = true,
+                
+                -- The option that controls whether the `Well-done Grillmeister` achievement should be tracked or not.
+                well_done_grillmeister = true
             },
 
             -- The selected language option.

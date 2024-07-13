@@ -1,6 +1,5 @@
 --- IMPORTS
 local constants = require("Achievement_Progress_Tracker.constants");
-local sdk_manager  = require("Achievement_Progress_Tracker.sdk_manager");
 local config_manager = require("Achievement_Progress_Tracker.config_manager");
 local language_manager = require("Achievement_Progress_Tracker.language_manager");
 local tracking_manager = require("Achievement_Progress_Tracker.tracking_manager");
@@ -105,8 +104,9 @@ function ui_manager.init_module()
         -- Define the flags that will track when values in the UI are changed.
         local config_changed,
             language_changed,
+            tracking_size_changed,
             tracking_changed,
-            changed = false, false, false, false;
+            changed = false, false, false, false, false;
         
         -- Define the flags that will track when something is reset (when the reset button is pressed).
         local tracking_reset,
@@ -149,8 +149,8 @@ function ui_manager.init_module()
                     imgui.text(language_manager.language.current.ui.combo_box.size);
                     changed, config_manager.config.current.display.size =
                         imgui.combo(" ", config_manager.config.current.display.size, ui_manager.size_options);
+                    tracking_size_changed = tracking_size_changed or changed;
                     config_changed = config_changed or changed;
-                    tracking_changed = config_changed;
                     imgui.new_line();
 
                     -- Create an alignment selector that the user can use to select which alignment everything being
@@ -354,16 +354,11 @@ function ui_manager.init_module()
             end
         end
 
-        -- Check if the tracking was reset or was changed.
-        if tracking_reset or tracking_changed then
-            -- If yes, then get the hunter record save data.
-            local hunter_record_save_data = sdk_manager.get_hunter_record_save_data();
-
-            -- Check if the hunter record save data was found.
-            if hunter_record_save_data then
-                -- If yes, then call the update values on the tracking manager.
-                tracking_manager.update_values(hunter_record_save_data);
-            end
+        -- Check if the tracking was reset, had its sized changed, or any tracker visibility was toggled.
+        if tracking_reset or tracking_size_changed or tracking_changed then
+            -- If yes, then call the update language function on the tracking manager to recalculate the longest text
+            -- width and amount to display.
+            tracking_manager.update_language();
         end
     end)
 end

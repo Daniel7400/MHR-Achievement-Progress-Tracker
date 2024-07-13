@@ -94,11 +94,55 @@
 		},
 		"baharis_hand_wound_birdie": {
 			"name": "バハリの手巻き鳥",
-			"description": "異常研究ラボで調査コイン3000枚を使います。"
+			"description": "異常研究ラボで3000枚の調査コインを使用すると授与されます。"
 		},
 		"rampage_nemesis_certificate": {
 			"name": "優秀狩人ノ巻【百竜】",
-			"description": "多くの百竜夜行のクエストをクリアした証。ギルドから送られる記念品。"
+			"description": "百竜夜行の旅クエストを50回完了すると授与されます。"
+		},
+		"golden_spiribug_plate": {
+			"name": "金霊テントウの大絵皿",
+			"description": "金霊テントウ、黄金霊テントウを累計で1000匹集めた証。"
+		},
+		"hunting_helpers_plate": {
+			"name": "猟具生物の大絵皿",
+			"description": "猟具生物を累計で500回取得した証。"
+		},
+		"spiritwood_necklace": {
+			"name": "神木の首飾り",
+			"description": "大社跡でクエストを50回クリアした証。"
+		},
+		"frozen_lampsquid_earring": {
+			"name": "氷結シラヌイカのイヤリング",
+			"description": "寒冷群島でクエストを50回クリアした証。"
+		},
+		"silver_cactus_ring": {
+			"name": "白銀サボテンの指輪",
+			"description": "砂原でクエストを50回クリアした証。"
+		},
+		"prismatic_chalice": {
+			"name": "彩水晶の杯",
+			"description": "水没林でクエストを50回クリアした証。"
+		},
+		"heliotrope_bracelet": {
+			"name": "碧赤岩の腕輪",
+			"description": "溶岩洞でクエストを50回クリアした証。"
+		},
+		"copal_brooch": {
+			"name": "コーパルのブローチ",
+			"description": "城塞高地でクエストを50回クリアした証。"
+		},
+		"sea_blue_amulet": {
+			"name": "海色のアミュレット",
+			"description": "密林でクエストを50回クリアした証。"
+		},
+		"thank_mew_letter": {
+			"name": "オトモ達からの感謝状",
+			"description": "オトモを50匹雇用した証。"
+		},
+		"well_done_grillmeister": {
+			"name": "上手に焼けマスター",
+			"description": "こんがり肉を30回上手に焼いた証。"
 		}
 	}
 }

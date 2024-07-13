@@ -95,11 +95,55 @@
 		},
 		"baharis_hand_wound_birdie": {
 			"name": "巴哈里的发条鸟",
-			"description": "在异常研究实验室花费3000个调查币。"
+			"description": "在异常研究实验室花费 3000 个调查币即可获得该奖励。"
 		},
 		"rampage_nemesis_certificate": {
 			"name": "优秀猎人之卷【百龙】",
-			"description": "完成诸多百龙夜行任务的证明。公会赠予的纪念品。"
+			"description": "完成 50 个龙夜行任务后获得奖励。"
+		},
+		"golden_spiribug_plate": {
+			"name": "金灵瓢虫彩瓷",
+			"description": "累计收集1000只金灵瓢虫、黄金灵瓢虫的证明。"
+		},
+		"hunting_helpers_plate": {
+			"name": "猎具生物彩瓷",
+			"description": "累计获得500次猎具生物的证明。"
+		},
+		"spiritwood_necklace": {
+			"name": "神木项链",
+			"description": "在废神社完成50次任务的证明。"
+		},
+		"frozen_lampsquid_earring": {
+			"name": "冰冻不知火乌贼耳饰",
+			"description": "在冰封群岛完成50次任务的证明。"
+		},
+		"silver_cactus_ring": {
+			"name": "白银仙人掌戒指",
+			"description": "在沙原完成50次任务的证明。"
+		},
+		"prismatic_chalice": {
+			"name": "彩水晶杯",
+			"description": "在水没林完成50次任务的证明。"
+		},
+		"heliotrope_bracelet": {
+			"name": "碧赤岩手镯",
+			"description": "在熔岩洞完成50次任务的证明。"
+		},
+		"copal_brooch": {
+			"name": "琥珀胸针",
+			"description": "在城塞高地完成50次任务的证明。"
+		},
+		"sea_blue_amulet": {
+			"name": "海蓝色的护身符",
+			"description": "在密林完成50次任务的证明。"
+		},
+		"thank_mew_letter": {
+			"name": "随从们的感谢状",
+			"description": "雇用过50个随从的证明。"
+		},
+		"well_done_grillmeister": {
+			"name": "烤肉大师",
+			"description": "成功烤出30次烤熟的肉的证明。"
 		}
 	}
 }

@@ -94,11 +94,55 @@
 		},
 		"baharis_hand_wound_birdie": {
 			"name": "바하리의 태엽식 새",
-			"description": "변칙 연구실에서 조사 코인 3000개를 사용하세요."
+			"description": "변칙 연구실에서 조사 코인 3000개를 소비하여 수여됩니다."
 		},
 		"rampage_nemesis_certificate": {
 			"name": "우수 헌터 두루마리【백룡】",
-			"description": "수많은 백룡야행 퀘스트를클리어한 증표. 길드에서 보낸기념품."
+			"description": "백룡의 밤 투어 퀘스트 50개를 완료하면 수여됩니다."
+		},
+		"golden_spiribug_plate": {
+			"name": "금령 무당벌레 접시",
+			"description": "금령/황금령 무당벌레를총 1000마리 모은 증표."
+		},
+		"hunting_helpers_plate": {
+			"name": "사냥보조생물 접시",
+			"description": "사냥보조생물을 총 500회습득한 증표."
+		},
+		"spiritwood_necklace": {
+			"name": "신목 목걸이",
+			"description": "사원 폐허에서 퀘스트를50회 클리어한 증표."
+		},
+		"frozen_lampsquid_earring": {
+			"name": "빙결 등불징어 이어링",
+			"description": "한랭 군도에서 퀘스트를50회 클리어한 증표."
+		},
+		"silver_cactus_ring": {
+			"name": "백은 선인장 반지",
+			"description": "모래 평원에서 퀘스트를50회 클리어한 증표."
+		},
+		"prismatic_chalice": {
+			"name": "수정 잔",
+			"description": "수몰된 숲에서 퀘스트를50회 클리어한 증표."
+		},
+		"heliotrope_bracelet": {
+			"name": "벽적암 팔찌",
+			"description": "용암 동굴에서 퀘스트를50회 클리어한 증표."
+		},
+		"copal_brooch": {
+			"name": "코펄 브로치",
+			"description": "요새고원에서 퀘스트를 50회 클리어한 증표."
+		},
+		"sea_blue_amulet": {
+			"name": "바닷빛 애뮬릿",
+			"description": "밀림에서 퀘스트를 50회 클리어한 증표."
+		},
+		"thank_mew_letter": {
+			"name": "동반자들이 보낸 감사장",
+			"description": "동반자를 50마리 고용한 증표."
+		},
+		"well_done_grillmeister": {
+			"name": "잘 굽기 달인",
+			"description": "잘 익은 고기를 30회 구운 증표."
 		}
 	}
 }

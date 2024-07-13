@@ -20,6 +20,7 @@ achievementtracker.__index = achievementtracker;
 ---@field source number The source from which the data to use when updating will come from.
 ---@field acquisition_method number The method to acquire the data from the source.
 ---@field name string The name of the field/function used to acquire the data from the source via the acquisition method.
+---@field additional_processing function [OPTIONAL] The function that will take in the acquired value and do any additional processing on it. Needs to return the value that will be set as current.
 
 ---
 --- Create a new achievement tracker.
@@ -33,9 +34,10 @@ achievementtracker.__index = achievementtracker;
 ---@param update_params_source number The source from which the data to use when updating will come from.
 ---@param update_params_acquisition_method number The method to acquire the data from the source.
 ---@param update_params_name string The name of the field/function used to acquire the data from the source via the acquisition method.
+---@param update_params_additional_processing? function [OPTIONAL] The function that will take in the acquired value and do any additional processing on it. Needs to return the value that will be set as current.
 ---
 ---@return achievementtracker
-function achievementtracker:new(id, name, description, image_path, amount, current, update_params_source, update_params_acquisition_method, update_params_name)
+function achievementtracker:new(id, name, description, image_path, amount, current, update_params_source, update_params_acquisition_method, update_params_name, update_params_additional_processing)
     -- Find the achievement key that matches the provided id.
     local achievement_key = table.find_key(constants.achievement, id);
 
@@ -55,7 +57,10 @@ function achievementtracker:new(id, name, description, image_path, amount, curre
     self.update_params.source = update_params_source;
     self.update_params.acquisition_method = update_params_acquisition_method;
     self.update_params.name = update_params_name;
-
+    if update_params_additional_processing ~= nil then
+        self.update_params.additional_processing = update_params_additional_processing;
+    end
+    
     return self;
 end
 

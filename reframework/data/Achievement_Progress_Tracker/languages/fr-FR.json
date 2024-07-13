@@ -91,11 +91,55 @@
 		},
 		"baharis_hand_wound_birdie": {
 			"name": "L'oiseau de Bahari",
-			"description": "Fabriqué par Bahari, doit être remonté. Prouve que vous fréquentez le Labo de Recherche Anomalie."
+			"description": "Décerné pour avoir dépensé 3 000 pièces d'enquête au laboratoire de recherche sur les anomalies."
 		},
 		"rampage_nemesis_certificate": {
 			"name": "Certificat Ennemi de la Calamité",
-			"description": "Un souvenir de la Guilde pour avoir accompli de nombreuses quêtes liées à la Calamité."
+			"description": "Décerné pour avoir terminé 50 quêtes de la Calamité."
+		},
+		"golden_spiribug_plate": {
+			"name": "Assiette Spectrinsectes dorés",
+			"description": "Pour avoir collecté 1 000 Spectrinsectes dorés ou d'or."
+		},
+		"hunting_helpers_plate": {
+			"name": "Plaque bidulons",
+			"description": "Pour avoir collecté 500 bidulons."
+		},
+		"spiritwood_necklace": {
+			"name": "Collier en Acaciâme",
+			"description": "Pour avoir complété 50 quêtes au Temple oublié."
+		},
+		"frozen_lampsquid_earring": {
+			"name": "Boucle d'oreille Calampar gelé",
+			"description": "Pour avoir complété 50 quêtes à l'Archipel de glace."
+		},
+		"silver_cactus_ring": {
+			"name": "Anneau cactus argenté",
+			"description": "Pour avoir complété 50 quêtes sur les Plaines de sable."
+		},
+		"prismatic_chalice": {
+			"name": "Calice prismatique",
+			"description": "Pour avoir complété 50 quêtes dans la Forêt inondée."
+		},
+		"heliotrope_bracelet": {
+			"name": "Bracelet héliotrope",
+			"description": "Pour avoir complété 50 quêtes dans les Cavernes de lave."
+		},
+		"copal_brooch": {
+			"name": "Broche en copal",
+			"description": "Pour avoir complété 50 quêtes à la Citadelle."
+		},
+		"sea_blue_amulet": {
+			"name": "Amulette marine",
+			"description": "Pour avoir complété 50 quêtes dans la Jungle."
+		},
+		"thank_mew_letter": {
+			"name": "Chalutations distinguées",
+			"description": "Pour avoir recruté 50 Pilpoils."
+		},
+		"well_done_grillmeister": {
+			"name": "Pro du BBQ à point",
+			"description": "Pour avoir cuisiné un steak à point 30 fois."
 		}
 	}
 }

@@ -91,11 +91,55 @@
 		},
 		"baharis_hand_wound_birdie": {
 			"name": "Baharis Aufziehvögelchen",
-			"description": "Geben Sie 3.000 Untersuchungsmünzen im Anomalieforschungslabor aus."
+			"description": "Auszeichnung für das Ausgeben von 3.000 Untersuchungsmünzen im Anomalieforschungslabor verliehen."
 		},
 		"rampage_nemesis_certificate": {
 			"name": "Zertifikat für Randale-Feinde",
-			"description": "Ein Souvenir von der Gilde für das Abschließen zahlreicher Randale-Quests."
+			"description": "Auszeichnung für das Abschluss von 50 Randale-Quests ab."
+		},
+		"golden_spiribug_plate": {
+			"name": "Goldtaroth-Bildtafel",
+			"description": "Preis für das Sammeln von 1000 Gold- und Aurumtaroth."
+		},
+		"hunting_helpers_plate": {
+			"name": "Helferwesen-Bildtafel",
+			"description": "Preis für das Sammeln von 500 Helferwesen."
+		},
+		"spiritwood_necklace": {
+			"name": "Geistholz-Halskette",
+			"description": "Vergeben für 50 erfüllte Quests in den Heiligen Ruinen."
+		},
+		"frozen_lampsquid_earring": {
+			"name": "Gefrorener Lichtkalmar-Ohrring",
+			"description": "Vergeben für 50 erfüllte Quests auf den Frostinseln."
+		},
+		"silver_cactus_ring": {
+			"name": "Silberner Kaktusring",
+			"description": "Vergeben für 50 erfüllte Quests in der Sandebene."
+		},
+		"prismatic_chalice": {
+			"name": "Prisma-Kelch",
+			"description": "Vergeben für 50 erfüllte Quests im Flutwald."
+		},
+		"heliotrope_bracelet": {
+			"name": "Sonnwenden-Armband",
+			"description": "Vergeben für 50 erfüllte Quests in den Lavahöhlen."
+		},
+		"copal_brooch": {
+			"name": "Kopalbrosche",
+			"description": "Auszeichnung für 50 Quests in der Zitadelle."
+		},
+		"sea_blue_amulet": {
+			"name": "Meerblaues Amulett",
+			"description": "Auszeichnung für 50 Quests im Dschungel."
+		},
+		"thank_mew_letter": {
+			"name": "Felynen-Dankesbrief",
+			"description": "Für das Anheuern von 50 Buddys erhalten."
+		},
+		"well_done_grillmeister": {
+			"name": "Grillmeister-Auszeichnung",
+			"description": "Vergeben für das Zubereiten von 30 Gebratenen Steaks."
 		}
 	}
 }

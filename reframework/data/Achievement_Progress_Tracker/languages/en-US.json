@@ -91,11 +91,55 @@
 		},
 		"baharis_hand_wound_birdie": {
 			"name": "Bahari's Hand-Wound Birdie",
-			"description": "Spend 3000 Investigation Coins at the Anomaly Research Lab."
+			"description": "Awarded for spending 3000 Investigation Coins at the Anomaly Research Lab."
 		},
 		"rampage_nemesis_certificate": {
 			"name": "Rampage Nemesis Certificate",
-			"description": "Complete 50 Rampage quests."
+			"description": "Awarded for completing 50 Rampage quests."
+		},
+		"golden_spiribug_plate": {
+			"name": "Golden Spiribug Plate",
+			"description": "Awarded for gathering 1000 Golden and Gilded Spiribugs."
+		},
+		"hunting_helpers_plate": {
+			"name": "Hunting Helpers Plate",
+			"description": "Awarded for gathering 500 Hunting Helpers."
+		},
+		"spiritwood_necklace": {
+			"name": "Spiritwood Necklace",
+			"description": "Awarded for completing 50 quests in the Shrine Ruins."
+		},
+		"frozen_lampsquid_earring": {
+			"name": "Frozen Lampsquid Earring",
+			"description": "Awarded for completing 50 quests in the Frost Islands."
+		},
+		"silver_cactus_ring": {
+			"name": "Silver Cactus Ring",
+			"description": "Awarded for completing 50 quests in the Sandy Plains."
+		},
+		"prismatic_chalice": {
+			"name": "Prismatic Chalice",
+			"description": "Awarded for completing 50 quests in the Flooded Forest."
+		},
+		"heliotrope_bracelet": {
+			"name": "Heliotrope Bracelet",
+			"description": "Awarded for completing 50 quests in the Lava Caverns."
+		},
+		"copal_brooch": {
+			"name": "Copal Brooch",
+			"description": "Awarded for completing 50 quests in the Citadel."
+		},
+		"sea_blue_amulet": {
+			"name": "Sea-Blue Amulet",
+			"description": "Awarded for completing 50 quests in the Jungle."
+		},
+		"thank_mew_letter": {
+			"name": "Thank-mew Letter",
+			"description": "Awarded for hiring 50 Buddies."
+		},
+		"well_done_grillmeister": {
+			"name": "Well-done Grillmeister",
+			"description": "Awarded for cooking a welldone steak 30 times."
 		}
 	}
 }

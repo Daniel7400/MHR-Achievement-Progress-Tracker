@@ -91,11 +91,55 @@
 		},
 		"baharis_hand_wound_birdie": {
 			"name": "Passarinho de Corda de Bahari",
-			"description": "Gaste 3000 moedas de investigação no Laboratório de Pesquisa de Anomalias."
+			"description": "Concedido por gastar 3000 Moedas de Investigação no Laboratório de Pesquisa de Anomalias."
 		},
 		"rampage_nemesis_certificate": {
 			"name": "Certif. de Nêmesis do Frenesi",
-			"description": "Souvenir da Guilda por completar várias Missões do Frenesi."
+			"description": "Concedido por completar 50 Missões do Frenesi."
+		},
+		"golden_spiribug_plate": {
+			"name": "Prato de Espirinseto Dourado",
+			"description": "Prêmio por coletar 1000 Espirinsetos Áureos."
+		},
+		"hunting_helpers_plate": {
+			"name": "Prato de Ajudantes de Caçada",
+			"description": "Prêmio por coletar 500 Ajudantes de Caçada."
+		},
+		"spiritwood_necklace": {
+			"name": "Colar de Espirideira",
+			"description": "Prêmio por concluir 50 missões nas Ruínas do Templo."
+		},
+		"frozen_lampsquid_earring": {
+			"name": "Brinco Lulamparina Congelada",
+			"description": "Prêmio por concluir 50 missões nas Ilhas Gélidas."
+		},
+		"silver_cactus_ring": {
+			"name": "Anel de Cacto Prateado",
+			"description": "Prêmio por concluir 50 missões na Planície Arenosa."
+		},
+		"prismatic_chalice": {
+			"name": "Cálice Multicor",
+			"description": "Prêmio por concluir 50 missões na Selva Inundada."
+		},
+		"heliotrope_bracelet": {
+			"name": "Bracelete Heliotropo",
+			"description": "Prêmio por concluir 50 missões nas Cavernas de Lava."
+		},
+		"copal_brooch": {
+			"name": "Broche Copal",
+			"description": "Premiado por concluir 50 missões no Forte."
+		},
+		"sea_blue_amulet": {
+			"name": "Amuleto Azul do Mar",
+			"description": "Premiado por concluir 50 missões na Selva."
+		},
+		"thank_mew_letter": {
+			"name": "Carta de Agrrradecimento",
+			"description": "Prêmio por contratar 50 Amigos."
+		},
+		"well_done_grillmeister": {
+			"name": "Mestre Grelha Bem Passado",
+			"description": "Prêmio por cozinhar um bife bem-passado 30 vezes."
 		}
 	}
 }

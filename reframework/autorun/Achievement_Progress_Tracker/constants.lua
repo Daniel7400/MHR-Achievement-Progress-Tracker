@@ -40,7 +40,10 @@ local constants <const> = {
         quest_manager = "snow.QuestManager",
 
         -- The Save Service type name.
-        save_service = "snow.SnowSaveService"
+        save_service = "snow.SnowSaveService",
+
+        -- The KPI Telemetry Manager type name.
+        kpi_telemetry_manager = "snow.telemetry.KpiTelemetryManager"
     },
 
     -- The id for the achievements being tracked.
@@ -67,7 +70,40 @@ local constants <const> = {
         baharis_hand_wound_birdie = 7,
 
         -- The id for the `Rampage Nemesis Certificate` achievement.
-        rampage_nemesis_certificate = 8
+        rampage_nemesis_certificate = 8,
+
+        -- The id for the `Golden Spiribug Plate` achievement.
+        golden_spiribug_plate = 9,
+
+        -- The id for the `Hunting Helpers Plate` achievement.
+        hunting_helpers_plate = 10,
+        
+        -- The id for the `Spiritwood Necklace` achievement.
+        spiritwood_necklace = 11,
+
+        -- The id for the `Frozen Lampsquid Earring` achievement.
+        frozen_lampsquid_earring = 12,
+
+        -- The id for the `Silver Cactus Ring` achievement.
+        silver_cactus_ring = 13,
+        
+        -- The id for the `Prismatic Chalice` achievement.
+        prismatic_chalice = 14,
+        
+        -- The id for the `Heliotrope Bracelet` achievement.
+        heliotrope_bracelet = 15,
+        
+        -- The id for the `Copal Brooch` achievement.
+        copal_brooch = 16,
+        
+        -- The id for the `Sea-Blue Amulet` achievement.
+        sea_blue_amulet = 17,
+        
+        -- The id for the `Thank-mew Letter` achievement.
+        thank_mew_letter = 18,
+        
+        -- The id for the `Well-done Grillmeister` achievement.
+        well_done_grillmeister = 19
     },
 
     -- The sources from where the values for an achievement tracker are pulled to update their value.
@@ -76,7 +112,10 @@ local constants <const> = {
         hunter_record_manager = 1,
 
         -- The Hunter Record Save Data update source.
-        hunter_record_save_data = 2
+        hunter_record_save_data = 2,
+
+        -- The Snapshot Product data update source.
+        snapshot_product = 3
     },
 
     -- The method used to acquire the update value from the update source.
@@ -86,6 +125,68 @@ local constants <const> = {
 
         -- The acquisition method that retrieves the result of calling a function.
         call = 2
+    },
+
+    -- The ids for environmental creatures.
+    env_creature = {
+        Wirebug = "Ec008_00",
+        OrangeSpiribird = "Ec009_01",
+        YellowSpiribird = "Ec009_03",
+        PuppetSpider = "Ec017_00",
+        PrisimSpiribird = "Ec009_08",
+        Blastoad = "Ec002_02",
+        Antidobra = "Ec007_00",
+        RedSpiritbird = "Ec009_00",
+        GreenSpiritbird = "Ec009_02",
+        Thunderbeetle = "Ec010_01",
+        Snowbeetle = "Ec010_02",
+        GoldenSpiribird = "Ec022_00",
+        Trapbugs = "Ec034_00",
+        Firebeetle = "Ec010_04",
+        Stinkmink = "Ec014_00",
+        Escuregot = "Ec015_00",
+        Mudbeetle = "Ec010_00",
+        Brewhare = "Ec035_00",
+        Lanternbug = "Ec004_00",
+        Felicicrow = "Ec033_00",
+        FortuneOwl = "Ec032_00",
+        GildedSpiribird = "Ec022_01",
+        Poisontoad = "Ec002_03",
+        Aurortle = "Ec005_00",
+        Gustcrab = "Ec038_00",
+        Sleeptoad = "Ec002_01",
+        Wailnard = "Ec018_00",
+        Paratoad = "Ec002_00",
+        RubyWirebug = "Ec056_01",
+        GoldWirebug = "Ec056_02",
+        MarionetteSpider = "Ec057_00",
+    },
+
+    -- The collection of creature ids that are considered hunting helpers.
+    hunting_helper = {},
+
+    -- The ids for the different playable maps.
+    map = {
+        Default = 1,
+        ShrineRuins = 2,
+        SandyPlans = 3,
+        FloodedForest = 4,
+        FrostIslands = 5,
+        LavaCaverns = 6,
+        Unknown1 = 7,
+        Rampage = 8,
+        Unknown2 = 9,
+        InfernalSprings = 10,
+        Arena = 11,
+        CoralPalace = 12,
+        Jungle = 13,
+        Citadel = 14,
+        ForlornArena = 15,
+        YawningAbyss = 16,
+        Unknown3 = 17,
+        Unknown4 = 18,
+        Unknown5 = 19,
+        Unknown6 = 20
     },
 
     -- The enum that defines the quest end flow types.
@@ -117,5 +218,27 @@ local constants <const> = {
 
 -- The language directory path that contains all of the language files.
 constants.language_directory_path = constants.directory_path .. "\\languages\\";
+
+-- Add all of the creature ids that correspond to environmental creatures that are considered hunting helpers.
+-- Use the creature id as the string, value doesn't matter. 
+constants.hunting_helper[constants.env_creature.PuppetSpider] = true;
+constants.hunting_helper[constants.env_creature.Blastoad] = true;
+constants.hunting_helper[constants.env_creature.Antidobra] = true;
+constants.hunting_helper[constants.env_creature.Thunderbeetle] = true;
+constants.hunting_helper[constants.env_creature.Snowbeetle] = true;
+constants.hunting_helper[constants.env_creature.Trapbugs] = true;
+constants.hunting_helper[constants.env_creature.Firebeetle] = true;
+constants.hunting_helper[constants.env_creature.Stinkmink] = true;
+constants.hunting_helper[constants.env_creature.Escuregot] = true;
+constants.hunting_helper[constants.env_creature.Mudbeetle] = true;
+constants.hunting_helper[constants.env_creature.Brewhare] = true;
+constants.hunting_helper[constants.env_creature.Lanternbug] = true;
+constants.hunting_helper[constants.env_creature.Poisontoad] = true;
+constants.hunting_helper[constants.env_creature.Aurortle] = true;
+constants.hunting_helper[constants.env_creature.Gustcrab] = true;
+constants.hunting_helper[constants.env_creature.Sleeptoad] = true;
+constants.hunting_helper[constants.env_creature.Wailnard] = true;
+constants.hunting_helper[constants.env_creature.Paratoad] = true;
+constants.hunting_helper[constants.env_creature.MarionetteSpider] = true;
 
 return constants;
