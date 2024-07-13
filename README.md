@@ -51,4 +51,4 @@ The following achievements are being tracked:
 ### Credits
 [Daniel7400](https://github.com/Daniel7400) - Creator and maintainer of the [mod](https://www.nexusmods.com/monsterhunterrise/mods/3169).
 
-[GreenComfyTea](https://github.com/GreenComfyTea) - Author of several popular mods, such as [MHR Overlay](https://www.nexusmods.com/monsterhunterrise/mods/50). A strong inspiration for creating [wiki for this mod](https://github.com/Daniel7400/MHR-Bow-Coating-Notifier/wiki) and some of the layout/content.
+[GreenComfyTea](https://github.com/GreenComfyTea) - Author of several popular mods, such as [MHR Overlay](https://www.nexusmods.com/monsterhunterrise/mods/50). A strong inspiration for creating [wiki for this mod](https://github.com/Daniel7400/MHR-Achievement-Progress-Tracker/wiki) and some of the layout/content.
